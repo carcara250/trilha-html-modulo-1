@@ -1,0 +1,69 @@
+body {
+    background-color: cadetblue;
+}
+
+#inicio {
+    width: 900px;
+    height: 50px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    text-align: center;
+    border-radius: 7px;
+
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+
+h1 {
+    color: aliceblue;
+}
+
+#logo {
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 0, 1px;
+    width: auto;
+    height: auto;
+}
+
+h2 {
+    color: antiquewhite;
+}
+
+.lista_1 {
+    position: relative;
+    text-align: center;
+
+
+}
+
+h4 {
+    color: red;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+h4:hover {
+    background-color: white;
+    font-size: 30px;
+
+}
